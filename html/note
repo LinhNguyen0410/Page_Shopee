@@ -1,0 +1,11 @@
+ctlr + D select các tên class giống nhau
+sau đó shift alt thì nó sẽ select hết những phần k giống nhau của tên class
+sau đó copy qua file css dán vào và làm như bước 1
+lùi con trỏ lại cái đầu tiên đặt dấu chấm,làm tương tự vs dấu {}
+----------------------------
+    transform-origin: top right; giúp cho cái tâm của show ra cái thông báo nằm trên góc trên bên phải,thông báo sẽ chạy ra từ hướng đó chứ k phải xuất phát từ tâm giữa
+    mau hover :background-color: rgba(224, 224, 224, 0.589);
+
+
+    https://www.youtube.com/watch?v=3E_8Pnjnrms&list=PL_-VfJajZj0U9nEXa4qyfB4U5ZIYCMPlz&index=73
+    link làm dấu 3 chấm khi tên sản phẩm quá dài

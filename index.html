@@ -1,0 +1,1839 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- carousel slide -->
+<link rel="stylesheet" href="./css/owl.carousel.min.css">
+<link rel="stylesheet" href="./css/owl.theme.default.min.css">
+<!-- carousel slide -->
+<link rel="stylesheet" href="./css/base.css">
+<link rel="stylesheet" href="./css/style.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link rel="stylesheet" href="./font/fontawesome-free-5.13.0-web/css/all.min.css">
+<title>Shop</title>
+</head>
+
+<body>
+<div class="main">
+<!-- phần header -->
+<header class="header">
+<div class="grid">
+<nav class="header__navbar">
+    <ul class="header__navbar-list">
+        <li class="header__navbar-item header__navbar-item--seperate">
+            Vào cửa hàng trên ứng dụng Tiki
+            <div class="header__qr">
+                <img src="./image/qr_image.png" alt="QR-CODE" class="header__qr-image">
+                <div class="header__qr-app">
+                    <a href="#"><img src="./image/appstore.png" alt="" class="header__qr-download" style=" border-bottom-left-radius: 3px;"></a>
+                    <a href=""><img src="./image/ggplay.png" alt="" class="header__qr-download" style=" border-bottom-right-radius: 3px;"></a>
+                </div>
+            </div>
+        </li>
+
+        <li class="header__navbar-item header__navbar-item--noHover">
+            Kết nối
+            <!-- icon fb -->
+            <a href="" class="header__navbar-icon-link">
+                <i class="header__navbar-icon fab fa-facebook"></i>
+            </a>
+            <!-- icon ins -->
+            <a href="" class="header__navbar-icon-link">
+                <i class="header__navbar-icon fab fa-instagram-square"></i>
+            </a>
+        </li>
+    </ul>
+    <ul class="header__navbar-list">
+        <li class="header__navbar-item">
+            <i class="header__navbar-icon far fa-bell"></i>
+            <a href="" class="header__navbar-item-link">
+            Thông báo
+        </a>
+            <!-- Phần thông báo show ra -->
+            <div class="header__notifi">
+                <header class="header__notify-header">
+                    <h3>Thông báo mới nhận</h3>
+                </header>
+                <ul class="header__notify-list">
+                    <li class="header__notify-item">
+                        <a href="" class="header__notify-link">
+                            <img src="./image/mizuno1.webp" alt="" class="header__notify-img">
+                            <div class="header__notify-info">
+                                <p class="header__notify-name">Mizuno Monarcida Neo II Select AS Đỏ </p>
+                                <span class="header__notify-desc">Gomistore cửa hàng phân phối mỹ phẩm
+                                hàn quốc nội địa chính hãng.</span>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="header__notify-list">
+                    <li class="header__notify-item">
+                        <a href="" class="header__notify-link">
+                            <img src="./image/mizuno2.webp" alt="" class="header__notify-img">
+                            <div class="header__notify-info">
+                                <p class="header__notify-name">Mizuno Mrl Sala Club Trắng Xanh Vàng</p>
+                                <span class="header__notify-desc">Mẫu mới của Mizuno được cải tiến dựa
+                                trên đàn anh đi trước</span>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="header__notify-list">
+                    <li class="header__notify-item header__notify-item--viewed">
+                        <a href="" class="header__notify-link">
+                            <img src="./image/nike.webp" alt="" class="header__notify-img">
+                            <div class="header__notify-info">
+                                <p class="header__notify-name header__notify-name--viewed">Nike Mercurial Mercurial VaporX 13-Orange</p>
+                                <span class="header__notify-desc">Sản phẩm Sản phẩm Sản phẩm mới nhất ra
+                                mắt vào tháng 8/2020 nằm trong BST Nike Daybreak.
+                            </span>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="header__notify-list">
+                    <li class="header__notify-item">
+                        <a href="" class="header__notify-link">
+                            <img src="./image/tiempo.webp" alt="" class="header__notify-img">
+                            <div class="header__notify-info">
+                                <p class="header__notify-name">Nike Tiempo Legend 8 Club TF Play Mode-Red New 2020</p>
+                                <span class="header__notify-desc">Upper được làm từ tổng hợp siêu mềm
+                                per được làm từ tổng hợp siêu mềm, và êm chân,đẹp,thon gọn ,đá là
+                                vào.Upper được làm từ tổng hợp siêu mềm per được làm từ tổng hợp
+                                siêu mềm, và êm chân,đẹp,thon gọn đá là vào.
+                            </span>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+                <!-- Xem tất cả -->
+                <footer class="header__notifi-footer">
+                    <a href="" class="header__notifi-footer--btn">Xem tất cả</a>
+                </footer>
+            </div>
+        </li>
+        <li class="header__navbar-item">
+            <i class="header__navbar-icon far fa-question-circle"></i>
+            <a href="" class="header__navbar-item-link">Trợ giúp</a>
+        </li>
+        <!-- TRONG TRƯỜNG HỢP CHƯA LOGIN THÌ HIỆN 2 THẰNG BÊN DƯỚI "ĐKY VÀ ĐNHAP"-->
+        <!-- <li class="header__navbar-item header__navbar-item--bold header__navbar-item--seperate">
+            Đăng ký
+        </li>
+        <li class="header__navbar-item header__navbar-item--bold">  
+            Đăng nhập
+        </li> -->
+        <!-- TRONG TRƯỜNG HỢP ĐĂNG NHẬP RỒI THÌ HIỆN RA TÊN + ICON VÀ MENU TÙY CHỌN -->
+        <li class="header__navbar-item header__navbar-user">
+            <span class="header__navbar-user-name">Linh Nguyễn</span>
+            <img src="./image/avt1.jpg" alt="" class="header__navbar-user-img">
+            <div class="header__navbar-user-info">
+                <div class="header__navbar-user-info-item">
+                    <a href="">
+                    Tài khoản của tôi
+                </a>
+                </div>
+                <div class="header__navbar-user-info-item">
+                    <a href="">
+                    Địa chỉ của tôi
+                </a>
+                </div>
+                <div class="header__navbar-user-info-item">
+                    <a href="">
+                    Đơn mua
+                </a>
+                </div>
+                <div class="header__navbar-user-info-item header__navbar-user-info-item--seperate">
+                    <a href="">
+                    Đăng xuất
+                </a>
+                </div>
+
+            </div>
+        </li>
+    </ul>
+</nav>
+<!-- phần chứa logo,ô tìm kiếm ,giỏ hàng -->
+<div class="header-with-search">
+    <div class="header__logo">
+        <a href="" class="header__logo-link"> <img src="./image/logo2.png" alt="" class="header__logo-img"></a>
+    </div>
+    <div class="header__search">
+        <div class="header__search-input-wrap">
+            <input type="text" class="header__search-input" placeholder="Tìm sản phẩm,danh mục hay thương hiệu mong muốn...">
+            <!-- Ô lịch sử tìm kiếm -->
+            <div class="header__search-history">
+                <h3 class="header__search-history-heading">
+                    Lịch sử Tìm kiếm
+                </h3>
+                <ul class="header__search-history-list">
+                    <li class="header__search-history-item">
+                        <a href=""> <i class="header__search-history-icon fas fa-search"></i>giày bóng đá </a>
+                    </li>
+                    <li class="header__search-history-item">
+                        <a href=""> <i class="header__search-history-icon fas fa-search"></i>barcelona
+                        </a>
+                    </li>
+                    <li class="header__search-history-item">
+                        <a href=""> <i class="header__search-history-icon fas fa-search"></i>Rafael nadal </a>
+                    </li>
+                    <li class="header__search-history-item">
+                        <a href=""> <i class="header__search-history-icon fas fa-search"></i>Áos lot
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- Ô lịch sử tìm kiếm -->
+        </div>
+        <div class="header__search-select">
+            <span class="header__search-select-label">Trong shop
+            <i class="header__search-select-icon fas fa-angle-down"></i>
+        </span>
+            <ul class="header__search-option">
+                <li class="header__search-option-item">
+                    <span class="header__search-item-label">
+                    Trong shop
+                    <i class="fas fa-check"></i>
+                </span>
+                </li>
+                <li class="header__search-option-item">
+                    <span class="header__search-item-label">
+                    Ngoài shop
+                </span>
+                    <i class="fas fa-check"></i>
+                </li>
+            </ul>
+        </div>
+        <button class="header__search-btn">
+        <i class="header__search-btn-icon fas fa-search"></i>
+    </button>
+    </div>
+
+    <!-- CART LAYOUT -->
+    <div class="header__cart">
+        <div class="header__cart-wrap">
+            <i class="header__cart-icon fas fa-shopping-cart"></i>
+            <span class="header__cart-count">3</span>
+            <!-- Khi mà ko có sản phẩm sẽ apply class "header__cart-list--no-cart" -->
+            <!--  header__cart-list--no-cart -->
+            <div class="header__cart-list">
+                <!-- chua co san pham -->
+                <img src="./image/cart-empty.png" alt="" class="header__cart-no-cart-img">
+                <span class="header__cart-list-no-cart-msg">Chưa có sản phẩm</span>
+                <!-- co san pham -->
+                <h4 class="header__cart-heading">Sản phẩm đã thêm</h4>
+                <ul class="header__cart-list-product">
+                    <!-- product list in cart -->
+                    <li class="header__cart-item-product">
+                        <a href="" class="img-link"> <img src="./image/nike.webp" alt="" class="header__cart-item-img-product"></a>
+                        <div class="header__cart-item-product-info">
+                            <div class="header__cart-item-product-name-price">
+                                <a href="" class="header__cart-item-product-name">Vapor 13 Neymar Jr
+                                Academy 2020 </a>
+                                <div class="header__cart-item-wrap-info-right">
+                                    <span class="header__cart-item-product-price">2.000.000đ</span>
+                                    <span class="header__cart-item-product-multiply">X</span>
+                                    <span class="header__cart-item-product-qnt">1</span>
+                                </div>
+                            </div>
+                            <div class="header__cart-item-product-desc-del">
+                                <span class="header__cart-item-product-des">Phân loại : Academy -
+                                Orange</span>
+                                <span class="header__cart-item-product-delete">Xóa</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="header__cart-item-product">
+                        <a href="" class="img-link"> <img src="./image/mizuno1.webp" alt="" class="header__cart-item-img-product"></a>
+                        <div class="header__cart-item-product-info">
+                            <div class="header__cart-item-product-name-price">
+                                <a href="" class="header__cart-item-product-name">Mizuno - Giày bóng đá
+                                số 1 Nhật Bản</a>
+
+                                <div class="header__cart-item-wrap-info-right">
+                                    <span class="header__cart-item-product-price">1.987.000đ</span>
+                                    <span class="header__cart-item-product-multiply">X</span>
+                                    <span class="header__cart-item-product-qnt">2</span>
+                                </div>
+                            </div>
+                            <div class="header__cart-item-product-desc-del">
+                                <span class="header__cart-item-product-des">Phân loại : Real -
+                                Red</span>
+                                <span class="header__cart-item-product-delete">Xóa</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="header__cart-item-product">
+                        <a href="" class="img-link"> <img src="./image/kamito.jfif" alt="" class="header__cart-item-img-product"></a>
+                        <div class="header__cart-item-product-info">
+                            <div class="header__cart-item-product-name-price">
+                                <a href="" class="header__cart-item-product-name">Kamito - Bình Định
+                                FC</a>
+
+                                <div class="header__cart-item-wrap-info-right">
+                                    <span class="header__cart-item-product-price">370.000đ</span>
+                                    <span class="header__cart-item-product-multiply">X</span>
+                                    <span class="header__cart-item-product-qnt">1</span>
+                                </div>
+                            </div>
+                            <div class="header__cart-item-product-desc-del">
+                                <span class="header__cart-item-product-des">Phân loại : Home -
+                                Orange</span>
+                                <span class="header__cart-item-product-delete">Xóa</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="header__cart-item-product">
+                        <a href="" class="img-link"> <img src="./image/vietnam.webp" alt="" class="header__cart-item-img-product"></a>
+                        <div class="header__cart-item-product-info">
+                            <div class="header__cart-item-product-name-price">
+                                <a href="" class="header__cart-item-product-name">Viet Nam - GrandSport
+                                2021</a>
+
+                                <div class="header__cart-item-wrap-info-right">
+                                    <span class="header__cart-item-product-price">970.000đ</span>
+                                    <span class="header__cart-item-product-multiply">X</span>
+                                    <span class="header__cart-item-product-qnt">1</span>
+                                </div>
+                            </div>
+                            <div class="header__cart-item-product-desc-del">
+                                <span class="header__cart-item-product-des">Phân loại : Home -
+                                Red</span>
+                                <span class="header__cart-item-product-delete">Xóa</span>
+                            </div>
+                        </div>
+                    </li>
+                                                        <li class="header__cart-item-product">
+                        <a href="" class="img-link"> <img src="./image/vietnam.webp" alt="" class="header__cart-item-img-product"></a>
+                        <div class="header__cart-item-product-info">
+                            <div class="header__cart-item-product-name-price">
+                                <a href="" class="header__cart-item-product-name">Viet Nam - GrandSport
+                                2021</a>
+
+                                <div class="header__cart-item-wrap-info-right">
+                                    <span class="header__cart-item-product-price">970.000đ</span>
+                                    <span class="header__cart-item-product-multiply">X</span>
+                                    <span class="header__cart-item-product-qnt">1</span>
+                                </div>
+                            </div>
+                            <div class="header__cart-item-product-desc-del">
+                                <span class="header__cart-item-product-des">Phân loại : Home -
+                                Red</span>
+                                <span class="header__cart-item-product-delete">Xóa</span>
+                            </div>
+                        </div>
+                    </li>
+                                                        <li class="header__cart-item-product">
+                        <a href="" class="img-link"> <img src="./image/vietnam.webp" alt="" class="header__cart-item-img-product"></a>
+                        <div class="header__cart-item-product-info">
+                            <div class="header__cart-item-product-name-price">
+                                <a href="" class="header__cart-item-product-name">Viet Nam - GrandSport
+                                2021</a>
+
+                                <div class="header__cart-item-wrap-info-right">
+                                    <span class="header__cart-item-product-price">970.000đ</span>
+                    <span class="header__cart-item-product-multiply">X</span>
+                                    <span class="header__cart-item-product-qnt">1</span>
+                                </div>
+                            </div>
+                            <div class="header__cart-item-product-desc-del">
+                                <span class="header__cart-item-product-des">Phân loại : Home -
+                                Red</span>
+                                <span class="header__cart-item-product-delete">Xóa</span>
+                            </div>
+                        </div>
+                    </li>
+
+
+                </ul>
+                <div class="header__cart-view-cart  btn btn--primary">
+                    <a href="" class="link-show-cart">Xem giỏ hàng</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- CART LAYOUT -->
+</div>
+</div>
+</header>
+<!-- phần header -->
+<!-- phần slider -->
+<div class="home-slider">
+<div class="grid">
+<div class="owl-carousel owl-theme owl-stage-outer">
+    <slide class="home-slider__img">
+        <img src="./image/slider4.jpg" alt="">
+        <button class="home-slider__btn">Shop Now</button>
+    </slide>
+    <slide class="home-slider__img">
+        <img src="./image/slider1.jpg" alt="">
+        <button class="home-slider__btn">Shop Now</button>
+    </slide>
+    <slide class="home-slider__img">
+        <img src="./image/slider2.jpg" alt="">
+        <button class="home-slider__btn">Shop Now</button>
+    </slide>
+    <slide class="home-slider__img">
+        <img src="./image/slider3.jpg" alt="">
+        <button class="home-slider__btn">Shop Now</button>
+    </slide>
+    <slide class="home-slider__img">
+        <img src="./image/slider5.jpg" alt="">
+        <button class="home-slider__btn">Shop Now</button>
+    </slide>
+    <slide class="home-slider__img">
+        <img src="./image/slider16jpg.png" alt="">
+        <button class="home-slider__btn">Shop Now</button>
+    </slide>
+</div>
+</div>
+</div>
+<!-- phần slider -->
+<!-- phần nội dung -->
+<div class="content__container">
+<!-- Nguyên tắc responsive : Grid - Row - Column -->
+<div class="grid">
+<!-- bao giờ cũng có 1 row và colum nằm trong row,colum 2 tương đương 2 cột -->
+<div class="grid__row wrap-content">
+    <!-- 2 cột menu danh mục sidebar trái -->
+    <div class="grid__column-2">
+        <nav class="menu-category">
+            <h3 class="menu-category__heading">
+                <i class="menu-category__heading-icon fas fa-list"></i> Danh Mục
+            </h3>
+            <!-- Danh mục -->
+            <ul class="menu-category-list">
+                <li class="menu-category-item menu-category-item--active">
+                    <a href="#" class="menu-category-item__link">Adidas</a>
+                </li>
+                <li class="menu-category-item">
+                    <a href="#" class=" menu-category-item__link">Nike</a>
+                </li>
+                <li class="menu-category-item">
+                    <a href="#" class="menu-category-item__link">Kamito</a>
+                </li>
+                <li class="menu-category-item">
+                    <a href="#" class="menu-category-item__link">Grand Sport</a>
+                </li>
+                <li class="menu-category-item">
+                    <a href="#" class="menu-category-item__link">Jorgabola</a>
+                </li>
+                <li class="menu-category-item">
+                    <a href="#" class="menu-category-item__link">Kelme</a>
+                </li>
+                <li class="menu-category-item">
+                    <a href="#" class="menu-category-item__link">Mitre</a>
+                </li>
+                <li class="menu-category-item">
+                    <a href="#" class="menu-category-item__link">New Balance</a>
+                </li>
+                <li class="menu-category-item">
+                    <a href="#" class="menu-category-item__link">Mizuno</a>
+                </li>
+            </ul>
+            <!-- Danh mục -->
+            <!-- Checkbox phân loại -->
+            <div class="menu-category-classify">
+                <h4 class="menu-category-classify__heading">
+                    Theo danh mục
+                </h4>
+                <div class="menu-category-classify__option">
+                    <input type="checkbox" value="1" class="menu-category-classify__option-checkbox">
+                    <span class="menu-category-classify__option-name"> Trang phục Bóng đá </span>
+                    <span class="menu-category-classify__option-count"> (222) </span>
+                </div>
+                <div class="menu-category-classify__option">
+                    <input type="checkbox" value="1" class="menu-category-classify__option-checkbox">
+                    <span class="menu-category-classify__option-name"> Trang phục Cầu Lông </span>
+                    <span class="menu-category-classify__option-count"> (131) </span>
+                </div>
+                <div class="menu-category-classify__option">
+                    <input type="checkbox" value="1" class="menu-category-classify__option-checkbox">
+                    <span class="menu-category-classify__option-name"> Giày thể thao </span>
+                    <span class="menu-category-classify__option-count"> (247) </span>
+                </div>
+                <div class="menu-category-classify__option">
+                    <input type="checkbox" value="1" class="menu-category-classify__option-checkbox">
+                    <span class="menu-category-classify__option-name"> Phụ Kiện & Đồ bảo hộ </span>
+                    <span class="menu-category-classify__option-count"> (22) </span>
+                </div>
+                <div class="menu-category-classify__option">
+                    <input type="checkbox" value="1" class="menu-category-classify__option-checkbox">
+                    <span class="menu-category-classify__option-name"> Giày bóng đá </span>
+                    <span class="menu-category-classify__option-count"> (518) </span>
+                </div>
+            </div>
+            <!-- Checkbox phân loại -->
+            <!-- Phân loại theo khoảng giá -->
+            <div class="menu-category-classify__range-price">
+                <h4 class="menu-category-classify__range-price__heading">
+                    Khoảng Giá
+                </h4>
+                <div class="menu-category-classify__range-price__input">
+                    <input type="number" placeholder="đ TỪ">
+                    <span>-</span>
+                    <input type="number" placeholder="đ ĐẾN">
+                </div>
+                <div class="menu-category-classify__range-price__btn">
+                    <button class="btn btn--primary">Áp dụng</button>
+                </div>
+            </div>
+            <!-- Phân loại theo khoảng giá -->
+            <!-- Phân loại theo nguồn hàng -->
+            <div class="menu-category-classify-origin__area">
+                <h4 class="menu-category-classify-origin__heading">
+                    Loại hàng
+                </h4>
+                <div class="menu-category-classify-origin__area-checkbox">
+                    <input type="checkbox">
+                    <span>Hàng Nội địa</span>
+                </div>
+                <div class="menu-category-classify-origin__area-checkbox">
+                    <input type="checkbox">
+                    <span>Hàng Quốc tế</span>
+                </div>
+            </div>
+            <!-- Phân loại theo nguồn hàng -->
+            <!-- Phân loại theo rating -->
+            <div class="menu-category-classify-rating">
+                <h4 class="menu-category-classify-rating__heading">
+                    Đánh Giá
+                </h4>
+                <div class="menu-category-classify-rating__star">
+                    <span class="menu-category-classify-rating__five-star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </span>
+                    <span class="menu-category-classify-rating__four-star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"> </i>
+                    <span class="menu-category-classify-rating__label">trở lên</span>
+                    </span>
+                    <span class="menu-category-classify-rating__three-star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                </span>
+                    <span class="menu-category-classify-rating__label">trở lên</span>
+                    <span class="menu-category-classify-rating__two-star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                </span>
+                    <span class="menu-category-classify-rating__label">trở lên</span>
+                    <span class="menu-category-classify-rating__one-star">
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                </span>
+                    <span class="menu-category-classify-rating__label">trở lên</span>
+                </div>
+            </div>
+            <!-- Phân loại theo rating -->
+            <!-- BTN xóa all -->
+            <div class="menu-category-classify__btn-delete__all">
+                <button class="btn btn--primary">Xóa Tất Cả</button>
+            </div>
+            <!-- BTN xóa all -->
+        </nav>
+    </div>
+    <!-- 10 cột chứa list sản phẩm -->
+    <div class="grid__column-10">
+        <!--   1.Menu lọc sản phẩm và sắp xếp tìm kiếm-->
+        <div class="menu-filter">
+            <div class="wrap__menu-filter-left">
+                <span class="menu-filter__title">Sắp xếp theo</span>
+                <button class="menu-filter__btn btn"> Phổ biến </button>
+                <button class="menu-filter__btn btn btn--primary"> Mới nhất </button>
+                <button class="menu-filter__btn btn"> Bán chạy </button>
+                <!-- select theo giá -->
+                <div class="input-select">
+                    <span class="input-select__label">Giá</span>
+                    <i class="input-select__icon fas fa-angle-down"></i>
+                    <!-- Khung lọc dc show ra -->
+                    <div class="input-select__option">
+                        <a href="" class="input-select__option-request">
+                        Giá: Thấp đến Cao
+                    </a>
+                        <a href="" class="input-select__option-request">
+                        Giá: Cao đến Thấp
+                    </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-filter__paginate">
+                <span class="menu-filter__paginate-num">
+                <span class="menu-filter__paginate-current">1</span> /
+                <span class="menu-filter__paginate-total">14</span>
+                </span>
+                <div class="menu-filter__paginate-btn-control">
+                    <a href="" class="menu-filter__paginate-btn-control--back">
+                        <i class="fas fa-angle-left"></i></a>
+                    <a href="" class="menu-filter__paginate-btn-control--up">
+                        <i class="fas fa-angle-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- List sản phẩm -->
+        <div class="list-product">
+            <!-- Grid - Row - Column -->
+            <div class="grid__row grid-row__product">
+                <!-- chug ta sử dung 2 colum cho 1 sp,mà muốn bao column thì phải có 1 row -->
+                <!-- khi mình tính tỉ lệ của 2 colum chứa items sản phẩm thì mình phải dựa vào grid column 10 bằng bao nhiêu,vdu grid column 10 chiếm 1000 = 100% ,có 5 sản phẩm / 10 cột,mỗi cột chiếm 20% -->
+
+                <div class="grid__column-2-4">
+                    <div class="list-product-item">
+                        <!-- product items -->
+                        <div class="list-product-item__img">
+                            <a href="#"> <img src="./image/LAgalaxy.jfif" alt="LAGALAXY"></a>
+                        </div>
+                        <h5 class="list-product-item__name">
+                            <a href="#"> Men's LA Galaxy Sebastian Lletget adidas Black 2021 The LA
+                            Galaxy Community Kit Replica Player Jersey</a>
+                        </h5>
+                        <div class="list-product-item__price">
+                            <span class="list-product-item__price-old"> 1.970.000đ </span>
+                            <span class="list-product-item__price-current"> 1.576.000đ </span>
+                        </div>
+                        <div class="list-product-item__action">
+                            <span class="list-product-item__like list-product-item__like--liked">
+                            <i class="list-product-item__like-icon--empty far fa-heart"></i>
+                            <!-- icon trống -->
+                            <i class="list-product-item__like-icon--fill fas fa-heart"></i>
+                        </span>
+                            <div class="list-product-item__rating">
+                                <i class="list-product-item__rating--fill fas fa-star"></i>
+                                <i class="list-product-item__rating--fill fas fa-star"></i>
+                                <i class="list-product-item__rating--fill fas fa-star"></i>
+                                <i class="list-product-item__rating--fill fas fa-star"></i>
+                                <i class="list-product-item__rating--empty fas fa-star"></i>
+                                <!-- <i class="far fa-star"></i> ngôi sao đặc-->
+                            </div>
+                            <!-- sản phẩm đã bán thì hiện số lượng đã bán,chưa thì k hiện -->
+                            <div class="list-product-item__sold">32 Đã bán</div>
+                        </div>
+                        <div class="list-product-item__origin">
+                            <span class="list-product-item__origin-shipping">
+                            <i class="list-product-item-icon-air-shipping fas fa-globe-asia"></i>
+                        </span>
+                            <span class="list-product-item__country"> United States </span>
+                        </div>
+                        <div class="list-product-item__favorite">
+                            <i class="fas fa-check"></i> Yêu thích
+                        </div>
+                        <div class="list-product-item__sale-off">
+                            <span class="list-product-item__sale-off-percent"> 20% </span>
+                            <span class="list-product-item__sale-off-label"> Giảm</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid__column-2-4">
+                    <div class="list-product-item">
+                        <!-- product items -->
+                        <div class="list-product-item__img">
+                            <a href="#"> <img src="./image/mecurial.jpg" alt="merYellow"></a>
+                        </div>
+                        <h5 class="list-product-item__name">
+                            <a href="#"> Nike Jr. Mercurial Vapor 13 Club MG</a>
+                        </h5>
+                        <div class="list-product-item__price">
+                            <span class="list-product-item__price-old"> 1.370.000đ </span>
+                            <span class="list-product-item__price-current"> 1.370.000đ </span>
+                        </div>
+                        <div class="list-product-item__action">
+                            <span class="list-product-item__like list-product-item__like--liked">
+                            <i class="list-product-item__like-icon--empty far fa-heart"></i>
+                            <!-- icon trống -->
+                            <i class="list-product-item__like-icon--fill fas fa-heart"></i>
+                        </span>
+                            <div class="list-product-item__rating">
+                                <i class="list-product-item__rating--fill fas fa-star"></i>
+                                <i class="list-product-item__rating--fill fas fa-star"></i>
+                                <i class="list-product-item__rating--fill fas fa-star"></i>
+                                <i class="list-product-item__rating--fill fas fa-star"></i>
+                                <i class="list-product-item__rating--empty fas fa-star"></i>
+                                <!-- <i class="far fa-star"></i> ngôi sao đặc-->
+                            </div>
+                            <!-- sản phẩm đã bán thì hiện số lượng đã bán,chưa thì k hiện -->
+                            <div class="list-product-item__sold">212 Đã bán</div>
+                        </div>
+                        <div class="list-product-item__origin">
+                            <span class="list-product-item__origin-shipping">
+                            <i class="list-product-item-icon-air-shipping  fas fa-globe-asia"></i>
+                        </span>
+                            <span class="list-product-item__country"> Malaysia </span>
+                        </div>
+                        <div class="list-product-item__favorite">
+                            <i class="fas fa-check"></i> Yêu thích
+                        </div>
+                        <!-- <div class="list-product-item__sale-off">
+                            <span class="list-product-item__sale-off-percent"> 0% </span>
+                            <span class="list-product-item__sale-off-label">  Giảm</span>
+                        </div> -->
+                    </div>
+                </div>
+                <div class="grid__column-2-4">
+                    <div class="list-product-item">
+                        <!-- product items -->
+                        <div class="list-product-item__img">
+                            <a href="#"> <img src="./image/ars.jpg" alt="arsKit"></a>
+                        </div>
+                        <h5 class="list-product-item__name">
+                            <a href="#"> Arsenal 20-21 Home Kit Released</a>
+                        </h5>
+                        <div class="list-product-item__price">
+                            <span class="list-product-item__price-old"> 2.370.000đ </span>
+                            <span class="list-product-item__price-current"> 1.999.000 </span>
+                        </div>
+                        <div class="list-product-item__action">
+                            <span class="list-product-item__like list-product-item__like--liked">
+                            <i class="list-product-item__like-icon--empty far fa-heart"></i>
+                            <!-- icon trống -->
+                            <i class="list-product-item__like-icon--fill fas fa-heart"></i>
+                        </span>
+                            <div class="list-product-item__rating">
+                                <i class="list-product-item__rating--fill fas fa-star"></i>
+                                <i class="list-product-item__rating--fill fas fa-star"></i>
+                                <i class="list-product-item__rating--fill fas fa-star"></i>
+                                <i class="list-product-item__rating--fill fas fa-star"></i>
+                                <i class="list-product-item__rating--empty fas fa-star"></i>
+                                <!-- <i class="far fa-star"></i> ngôi sao đặc-->
+                            </div>
+                            <!-- sản phẩm đã bán thì hiện số lượng đã bán,chưa thì k hiện -->
+                            <div class="list-product-item__sold">123 Đã bán</div>
+                        </div>
+                        <div class="list-product-item__origin">
+                            <span class="list-product-item__origin-shipping">
+                            <i class="list-product-item-icon-air-shipping fas fa-globe-asia"></i>
+                        </span>
+                            <span class="list-product-item__country"> Thailand </span>
+                        </div>
+                        <div class="list-product-item__favorite">
+                            <i class="fas fa-check"></i> Yêu thích
+                        </div>
+                        <div class="list-product-item__sale-off">
+                            <span class="list-product-item__sale-off-percent"> 13% </span>
+                            <span class="list-product-item__sale-off-label"> Giảm</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid__column-2-4">
+                    <div class="list-product-item">
+                        <!-- product items -->
+                        <div class="list-product-item__img">
+                            <a href="#"> <img src="./image/megreen.jpg" alt="merGreen"></a>
+                        </div>
+                        <h5 class="list-product-item__name">
+                            <a href="#"> Nike Mercurial Superfly 8 Academy</a>
+                        </h5>
+                        <div class="list-product-item__price">
+                            <span class="list-product-item__price-old"> 3.400.000đ </span>
+                            <span class="list-product-item__price-current"> 3.000.000đ </span>
+                        </div>
+                        <div class="list-product-item__action">
+                            <span class="list-product-item__like list-product-item__like--liked">
+                            <i class="list-product-item__like-icon--empty far fa-heart"></i>
+                            <!-- icon trống -->
+                            <i class="list-product-item__like-icon--fill fas fa-heart"></i>
+                        </span>
+                            <div class="list-product-item__rating">
+                                <i class="list-product-item__rating--fill fas fa-star"></i>
+                                <i class="list-product-item__rating--fill fas fa-star"></i>
+                                <i class="list-product-item__rating--fill fas fa-star"></i>
+                                <i class="list-product-item__rating--fill fas fa-star"></i>
+                                <i class="list-product-item__rating--empty fas fa-star"></i>
+                                <!-- <i class="far fa-star"></i> ngôi sao đặc-->
+                            </div>
+                            <!-- sản phẩm đã bán thì hiện số lượng đã bán,chưa thì k hiện -->
+                            <div class="list-product-item__sold">93 Đã bán</div>
+                        </div>
+                        <div class="list-product-item__origin">
+                            <span class="list-product-item__origin-shipping">
+                            <i
+                                class="list-product-item-icon--domestic-shipping  fas fa-shipping-fast"></i>
+                        </span>
+                            <span class="list-product-item__country"> TP.Hồ Chí Minh </span>
+                        </div>
+                        <div class="list-product-item__favorite">
+                            <i class="fas fa-check"></i> Yêu thích
+                        </div>
+                        <div class="list-product-item__sale-off">
+                            <span class="list-product-item__sale-off-percent"> 17% </span>
+                            <span class="list-product-item__sale-off-label"> Giảm</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid__column-2-4">
+                    <div class="list-product-item">
+                        <!-- product items -->
+                        <div class="list-product-item__img">
+                            <a href="#"> <img src="./image/p1.jpg" alt="kamitoSHB"></a>
+                        </div>
+                        <h5 class="list-product-item__name">
+                            <a href="#"> SHB Da Nang Homer Jersey 2020 </a>
+                        </h5>
+                        <div class="list-product-item__price">
+                            <span class="list-product-item__price-old"> 370.000đ </span>
+                            <span class="list-product-item__price-current"> 333.000đ </span>
+                        </div>
+                        <div class="list-product-item__action">
+                            <span class="list-product-item__like list-product-item__like--liked">
+                            <i class="list-product-item__like-icon--empty far fa-heart"></i>
+                            <!-- icon trống -->
+                            <i class="list-product-item__like-icon--fill fas fa-heart"></i>
+                        </span>
+                            <div class="list-product-item__rating">
+                                <i class="list-product-item__rating--fill fas fa-star"></i>
+                                <i class="list-product-item__rating--fill fas fa-star"></i>
+                                <i class="list-product-item__rating--fill fas fa-star"></i>
+                                <i class="list-product-item__rating--fill fas fa-star"></i>
+                                <i class="list-product-item__rating--empty fas fa-star"></i>
+                                <!-- <i class="far fa-star"></i> ngôi sao đặc-->
+                            </div>
+                            <!-- sản phẩm đã bán thì hiện số lượng đã bán,chưa thì k hiện -->
+                            <div class="list-product-item__sold">1,1k Đã bán</div>
+                        </div>
+                        <div class="list-product-item__origin">
+                            <span class="list-product-item__origin-shipping">
+                            <i
+                                class="list-product-item-icon--domestic-shipping  fas fa-shipping-fast"></i>
+                        </span>
+                            <span class="list-product-item__country"> TP.Hồ Chí Minh </span>
+                        </div>
+                        <div class="list-product-item__favorite">
+                            <i class="fas fa-check"></i> Yêu thích
+                        </div>
+                        <div class="list-product-item__sale-off">
+                            <span class="list-product-item__sale-off-percent"> 10% </span>
+                            <span class="list-product-item__sale-off-label"> Giảm</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid__column-2-4">
+                    <div class="list-product-item">
+                        <!-- product items -->
+                        <div class="list-product-item__img">
+                            <a href="#"> <img src="./image/bdkamito.jfif" alt="kamitoBD"></a>
+                        </div>
+                        <h5 class="list-product-item__name">
+                            <a href="#"> Becamex Binh Duong Homer Jersey 2020 </a>
+                        </h5>
+                        <div class="list-product-item__price">
+                            <span class="list-product-item__price-old"> 370.000đ </span>
+                            <span class="list-product-item__price-current"> 333.000đ </span>
+                        </div>
+                        <div class="list-product-item__action">
+                            <span class="list-product-item__like list-product-item__like--liked">
+                            <i class="list-product-item__like-icon--empty far fa-heart"></i>
+                            <!-- icon trống -->
+                            <i class="list-product-item__like-icon--fill fas fa-heart"></i>
+                        </span>
+                            <div class="list-product-item__rating">
+                                <i class="list-product-item__rating--fill fas fa-star"></i>
+                                <i class="list-product-item__rating--fill fas fa-star"></i>
+                                <i class="list-product-item__rating--fill fas fa-star"></i>
+                                <i class="list-product-item__rating--empty fas fa-star"></i>
+                                <i class="list-product-item__rating--empty fas fa-star"></i>
+                                <!-- <i class="far fa-star"></i> ngôi sao đặc-->
+                            </div>
+                            <!-- sản phẩm đã bán thì hiện số lượng đã bán,chưa thì k hiện -->
+                            <div class="list-product-item__sold">506 Đã bán</div>
+                        </div>
+                        <div class="list-product-item__origin">
+                            <span class="list-product-item__origin-shipping">
+                            <i
+                                class="list-product-item-icon--domestic-shipping  fas fa-shipping-fast"></i>
+                        </span>
+                            <span class="list-product-item__country"> TP.Hồ Chí Minh </span>
+                        </div>
+                        <div class="list-product-item__favorite">
+                            <i class="fas fa-check"></i> Yêu thích
+                        </div>
+                        <div class="list-product-item__sale-off">
+                            <span class="list-product-item__sale-off-percent"> 10% </span>
+                            <span class="list-product-item__sale-off-label"> Giảm</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid__column-2-4">
+                    <div class="list-product-item">
+                        <!-- product items -->
+                        <div class="list-product-item__img">
+                            <a href="#"> <img src="./image/dfc.jpg" alt="gbDFC"></a>
+                        </div>
+                        <h5 class="list-product-item__name">
+                            <a href="#"> Dong Thap FC Away Jersey 2020 </a>
+                        </h5>
+                        <div class="list-product-item__price">
+                            <span class="list-product-item__price-old"> 370.000đ </span>
+                            <span class="list-product-item__price-current"> 299.000đ </span>
+                        </div>
+                        <div class="list-product-item__action">
+                            <span class="list-product-item__like list-product-item__like--liked">
+                            <i class="list-product-item__like-icon--empty far fa-heart"></i>
+                            <!-- icon trống -->
+                            <i class="list-product-item__like-icon--fill fas fa-heart"></i>
+                        </span>
+                            <div class="list-product-item__rating">
+                                <i class="list-product-item__rating--fill fas fa-star"></i>
+                                <i class="list-product-item__rating--fill fas fa-star"></i>
+                                <i class="list-product-item__rating--fill fas fa-star"></i>
+                                <i class="list-product-item__rating--fill fas fa-star"></i>
+                                <i class="list-product-item__rating--fill fas fa-star"></i>
+                                <!-- <i class="far fa-star"></i> ngôi sao đặc-->
+                            </div>
+                            <!-- sản phẩm đã bán thì hiện số lượng đã bán,chưa thì k hiện -->
+                            <div class="list-product-item__sold">106 Đã bán</div>
+                        </div>
+                        <div class="list-product-item__origin">
+                            <span class="list-product-item__origin-shipping">
+                            <i
+                                class="list-product-item-icon--domestic-shipping  fas fa-shipping-fast"></i>
+                        </span>
+                            <span class="list-product-item__country"> TP.Cao Lãnh </span>
+                        </div>
+                        <div class="list-product-item__favorite">
+                            <i class="fas fa-check"></i> Yêu thích
+                        </div>
+                        <div class="list-product-item__sale-off">
+                            <span class="list-product-item__sale-off-percent"> 12% </span>
+                            <span class="list-product-item__sale-off-label"> Giảm</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid__column-2-4">
+                    <div class="list-product-item">
+                        <!-- product items -->
+                        <div class="list-product-item__img">
+                            <a href="#"> <img src="./image/hnfc.jpg" alt="HNFC"></a>
+                        </div>
+                        <h5 class="list-product-item__name">
+                            <a href="#"> Song Lam Nghe An FC Home Jersey 2020 - Mitre</a>
+                        </h5>
+                        <div class="list-product-item__price">
+                            <span class="list-product-item__price-old"> 270.000đ </span>
+                            <span class="list-product-item__price-current"> 199.000đ </span>
+                        </div>
+                        <div class="list-product-item__action">
+                            <span class="list-product-item__like list-product-item__like--liked">
+                            <i class="list-product-item__like-icon--empty far fa-heart"></i>
+                            <!-- icon trống -->
+                            <i class="list-product-item__like-icon--fill fas fa-heart"></i>
+                        </span>
+                            <div class="list-product-item__rating">
+                                <i class="list-product-item__rating--fill fas fa-star"></i>
+                                <i class="list-product-item__rating--fill fas fa-star"></i>
+                                <i class="list-product-item__rating--fill fas fa-star"></i>
+                                <i class="list-product-item__rating--fill fas fa-star"></i>
+                                <i class="list-product-item__rating--fill fas fa-star"></i>
+                                <!-- <i class="far fa-star"></i> ngôi sao đặc-->
+                            </div>
+                            <!-- sản phẩm đã bán thì hiện số lượng đã bán,chưa thì k hiện -->
+                            <div class="list-product-item__sold">2,3k Đã bán</div>
+                        </div>
+                        <div class="list-product-item__origin">
+                            <span class="list-product-item__origin-shipping">
+                            <i
+                                class="list-product-item-icon--domestic-shipping  fas fa-shipping-fast"></i>
+                        </span>
+                            <span class="list-product-item__country"> Hà Nội </span>
+                        </div>
+                        <div class="list-product-item__favorite">
+                            <i class="fas fa-check"></i> Yêu thích
+                        </div>
+                        <div class="list-product-item__sale-off">
+                            <span class="list-product-item__sale-off-percent"> 22% </span>
+                            <span class="list-product-item__sale-off-label"> Giảm</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid__column-2-4">
+                    <div class="list-product-item">
+                        <!-- product items -->
+                        <div class="list-product-item__img">
+                            <a href="#"> <img src="./image/mu.jpg" alt="MU"></a>
+                        </div>
+                        <h5 class="list-product-item__name">
+                            <a href="#"> Manchester United 2019/20 Home Shirt - Adidas </a>
+                        </h5>
+                        <div class="list-product-item__price">
+                            <span class="list-product-item__price-old"> 4.270.000đ </span>
+                            <span class="list-product-item__price-current"> 3.199.000đ </span>
+                        </div>
+                        <div class="list-product-item__action">
+                            <span class="list-product-item__like list-product-item__like--liked">
+                            <i class="list-product-item__like-icon--empty far fa-heart"></i>
+                            <!-- icon trống -->
+                            <i class="list-product-item__like-icon--fill fas fa-heart"></i>
+                        </span>
+                            <div class="list-product-item__rating">
+                                <i class="list-product-item__rating--fill fas fa-star"></i>
+                                <i class="list-product-item__rating--fill fas fa-star"></i>
+                                <i class="list-product-item__rating--fill fas fa-star"></i>
+                                <i class="list-product-item__rating--fill fas fa-star"></i>
+                                <i class="list-product-item__rating--fill fas fa-star"></i>
+                                <!-- <i class="far fa-star"></i> ngôi sao đặc-->
+                            </div>
+                            <!-- sản phẩm đã bán thì hiện số lượng đã bán,chưa thì k hiện -->
+                            <div class="list-product-item__sold">12k Đã bán</div>
+                        </div>
+                        <div class="list-product-item__origin">
+                            <span class="list-product-item__origin-shipping">
+                            <i class="list-product-item-icon-air-shipping fas fa-globe-asia"></i>
+                        </span>
+                            <span class="list-product-item__country"> Singapore </span>
+                        </div>
+                        <div class="list-product-item__favorite">
+                            <i class="fas fa-check"></i> Yêu thích
+                        </div>
+                        <div class="list-product-item__sale-off">
+                            <span class="list-product-item__sale-off-percent"> 32% </span>
+                            <span class="list-product-item__sale-off-label"> Giảm</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid__column-2-4">
+                    <div class="list-product-item">
+                        <!-- product items -->
+                        <div class="list-product-item__img">
+                            <a href="#"> <img src="./image/mizuno.jpg" alt="mizuno"></a>
+                        </div>
+                        <h5 class="list-product-item__name">
+                            <a href="#"> Mizuno Launch The Next-Generation Rebula 3 </a>
+                        </h5>
+                        <div class="list-product-item__price">
+                            <span class="list-product-item__price-old"> 2.640.000đ </span>
+                            <span class="list-product-item__price-current"> 1.320.000đ </span>
+                        </div>
+                        <div class="list-product-item__action">
+                            <span class="list-product-item__like list-product-item__like--liked">
+                            <i class="list-product-item__like-icon--empty far fa-heart"></i>
+                            <!-- icon trống -->
+                            <i class="list-product-item__like-icon--fill fas fa-heart"></i>
+                        </span>
+                            <div class="list-product-item__rating">
+                                <i class="list-product-item__rating--fill fas fa-star"></i>
+                                <i class="list-product-item__rating--fill fas fa-star"></i>
+                                <i class="list-product-item__rating--fill fas fa-star"></i>
+                                <i class="list-product-item__rating--fill fas fa-star"></i>
+                                <i class="list-product-item__rating--empty fas fa-star"></i>
+                                <!-- <i class="far fa-star"></i> ngôi sao đặc-->
+                            </div>
+                            <!-- sản phẩm đã bán thì hiện số lượng đã bán,chưa thì k hiện -->
+                            <div class="list-product-item__sold">12 Đã bán</div>
+                        </div>
+                        <div class="list-product-item__origin">
+                            <span class="list-product-item__origin-shipping">
+                            <i class="list-product-item-icon-air-shipping fas fa-globe-asia"></i>
+                        </span>
+                            <span class="list-product-item__country"> Japan </span>
+                        </div>
+                        <div class="list-product-item__favorite">
+                            <i class="fas fa-check"></i> Yêu thích
+                        </div>
+                        <div class="list-product-item__sale-off">
+                            <span class="list-product-item__sale-off-percent"> 50% </span>
+                            <span class="list-product-item__sale-off-label"> Giảm</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid__column-2-4">
+                    <div class="list-product-item">
+                        <!-- product items -->
+                        <div class="list-product-item__img">
+                            <a href="#"> <img src="./image/chian.jpg" alt="china"></a>
+                        </div>
+                        <h5 class="list-product-item__name">
+                            <a href="#"> New Nike China Home Jersey 2016 </a>
+                        </h5>
+                        <div class="list-product-item__price">
+                            <span class="list-product-item__price-old"> 1.640.000đ </span>
+                            <span class="list-product-item__price-current"> 1.320.000đ </span>
+                        </div>
+                        <div class="list-product-item__action">
+                            <span class="list-product-item__like list-product-item__like--liked">
+                            <i class="list-product-item__like-icon--empty far fa-heart"></i>
+                            <!-- icon trống -->
+                            <i class="list-product-item__like-icon--fill fas fa-heart"></i>
+                        </span>
+                            <div class="list-product-item__rating">
+                                <i class="list-product-item__rating--fill fas fa-star"></i>
+                                <i class="list-product-item__rating--fill fas fa-star"></i>
+                                <i class="list-product-item__rating--fill fas fa-star"></i>
+                                <i class="list-product-item__rating--fill fas fa-star"></i>
+                                <i class="list-product-item__rating--empty fas fa-star"></i>
+                                <!-- <i class="far fa-star"></i> ngôi sao đặc-->
+                            </div>
+                            <!-- sản phẩm đã bán thì hiện số lượng đã bán,chưa thì k hiện -->
+                            <div class="list-product-item__sold">1 Đã bán</div>
+                        </div>
+                        <div class="list-product-item__origin">
+                            <span class="list-product-item__origin-shipping">
+                            <i class="list-product-item-icon-air-shipping fas fa-globe-asia"></i>
+                        </span>
+                            <span class="list-product-item__country"> China </span>
+                        </div>
+                        <!-- <div class="list-product-item__favorite">
+                            <i class="fas fa-check"></i> Yêu thích
+                        </div> -->
+                        <div class="list-product-item__sale-off">
+                            <span class="list-product-item__sale-off-percent"> 10% </span>
+                            <span class="list-product-item__sale-off-label"> Giảm</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid__column-2-4">
+                    <div class="list-product-item">
+                        <!-- product items -->
+                        <div class="list-product-item__img">
+                            <a href="#"> <img src="./image/mancity.jpg" alt="mancity"></a>
+                        </div>
+                        <h5 class="list-product-item__name">
+                            <a href="#"> Puma Manchester City Home Jersey 2021 -Premier League</a>
+                        </h5>
+                        <div class="list-product-item__price">
+                            <span class="list-product-item__price-old"> 3.640.000đ </span>
+                            <span class="list-product-item__price-current"> 3.490.000đ </span>
+                        </div>
+                        <div class="list-product-item__action">
+                            <span class="list-product-item__like list-product-item__like--liked">
+                            <i class="list-product-item__like-icon--empty far fa-heart"></i>
+                            <!-- icon trống -->
+                            <i class="list-product-item__like-icon--fill fas fa-heart"></i>
+                        </span>
+                            <div class="list-product-item__rating">
+                                <i class="list-product-item__rating--fill fas fa-star"></i>
+                                <i class="list-product-item__rating--fill fas fa-star"></i>
+                                <i class="list-product-item__rating--fill fas fa-star"></i>
+                                <i class="list-product-item__rating--fill fas fa-star"></i>
+                                <i class="list-product-item__rating--empty fas fa-star"></i>
+                                <!-- <i class="far fa-star"></i> ngôi sao đặc-->
+                            </div>
+                            <!-- sản phẩm đã bán thì hiện số lượng đã bán,chưa thì k hiện -->
+                            <div class="list-product-item__sold">91 Đã bán</div>
+                        </div>
+                        <div class="list-product-item__origin">
+                            <span class="list-product-item__origin-shipping">
+                            <i class="list-product-item-icon-air-shipping fas fa-globe-asia"></i>
+                        </span>
+                            <span class="list-product-item__country"> ThaiLand </span>
+                        </div>
+                        <div class="list-product-item__favorite">
+                            <i class="fas fa-check"></i> Yêu thích
+                        </div>
+                        <div class="list-product-item__sale-off">
+                            <span class="list-product-item__sale-off-percent"> 5% </span>
+                            <span class="list-product-item__sale-off-label"> Giảm</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid__column-2-4">
+                    <div class="list-product-item">
+                        <!-- product items -->
+                        <div class="list-product-item__img">
+                            <a href="#"> <img src="./image/newba.jpg" alt="newbalance"></a>
+                        </div>
+                        <h5 class="list-product-item__name">
+                            <a href="#"> New Balance Furon 4.0 Pro Mané FG - Red/Yellow/Green LIMITED
+                            EDITION</a>
+                        </h5>
+                        <div class="list-product-item__price">
+                            <span class="list-product-item__price-old"> 7.890.000đ </span>
+                            <span class="list-product-item__price-current"> 5.490.000đ </span>
+                        </div>
+                        <div class="list-product-item__action">
+                            <span class="list-product-item__like list-product-item__like--liked">
+                            <i class="list-product-item__like-icon--empty far fa-heart"></i>
+                            <!-- icon trống -->
+                            <i class="list-product-item__like-icon--fill fas fa-heart"></i>
+                        </span>
+                            <div class="list-product-item__rating">
+                                <i class="list-product-item__rating--fill fas fa-star"></i>
+                                <i class="list-product-item__rating--fill fas fa-star"></i>
+                                <i class="list-product-item__rating--fill fas fa-star"></i>
+                                <i class="list-product-item__rating--fill fas fa-star"></i>
+                                <i class="list-product-item__rating--empty fas fa-star"></i>
+                                <!-- <i class="far fa-star"></i> ngôi sao đặc-->
+                            </div>
+                            <!-- sản phẩm đã bán thì hiện số lượng đã bán,chưa thì k hiện -->
+                            <div class="list-product-item__sold">32 Đã bán</div>
+                        </div>
+                        <div class="list-product-item__origin">
+                            <span class="list-product-item__origin-shipping">
+                            <i class="list-product-item-icon-air-shipping fas fa-globe-asia"></i>
+                        </span>
+                            <span class="list-product-item__country"> United States </span>
+                        </div>
+                        <!-- <div class="list-product-item__favorite">
+                            <i class="fas fa-check"></i> Yêu thích
+                        </div> -->
+                        <div class="list-product-item__sale-off">
+                            <span class="list-product-item__sale-off-percent"> 20% </span>
+                            <span class="list-product-item__sale-off-label"> Giảm</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid__column-2-4">
+                    <div class="list-product-item">
+                        <!-- product items -->
+                        <div class="list-product-item__img">
+                            <a href="#"> <img src="./image/nikeglo.jpg" alt="gloves"></a>
+                        </div>
+                        <h5 class="list-product-item__name">
+                            <a href="#"> Nike Mercurial Touch Elite Goalkeeper Gloves</a>
+                        </h5>
+                        <div class="list-product-item__price">
+                            <span class="list-product-item__price-old"> 2.190.000đ </span>
+                            <span class="list-product-item__price-current"> 2.000.000đ </span>
+                        </div>
+                        <div class="list-product-item__action">
+                            <span class="list-product-item__like list-product-item__like--liked">
+                            <i class="list-product-item__like-icon--empty far fa-heart"></i>
+                            <!-- icon trống -->
+                            <i class="list-product-item__like-icon--fill fas fa-heart"></i>
+                        </span>
+                            <div class="list-product-item__rating">
+                                <i class="list-product-item__rating--fill fas fa-star"></i>
+                                <i class="list-product-item__rating--fill fas fa-star"></i>
+                                <i class="list-product-item__rating--fill fas fa-star"></i>
+                                <i class="list-product-item__rating--fill fas fa-star"></i>
+                                <i class="list-product-item__rating--empty fas fa-star"></i>
+                                <!-- <i class="far fa-star"></i> ngôi sao đặc-->
+                            </div>
+                            <!-- sản phẩm đã bán thì hiện số lượng đã bán,chưa thì k hiện -->
+                            <div class="list-product-item__sold">1,2k Đã bán</div>
+                        </div>
+                        <div class="list-product-item__origin">
+                            <span class="list-product-item__origin-shipping">
+                            <i class="list-product-item-icon-air-shipping fas fa-globe-asia"></i>
+                        </span>
+                            <span class="list-product-item__country"> United States </span>
+                        </div>
+                        <!-- <div class="list-product-item__favorite">
+                            <i class="fas fa-check"></i> Yêu thích
+                        </div> -->
+                        <div class="list-product-item__sale-off">
+                            <span class="list-product-item__sale-off-percent"> 3% </span>
+                            <span class="list-product-item__sale-off-label"> Giảm</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid__column-2-4">
+                    <div class="list-product-item">
+                        <!-- product items -->
+                        <div class="list-product-item__img">
+                            <a href="#"> <img src="./image/adiglo.jpg" alt="agloves"></a>
+                        </div>
+                        <h5 class="list-product-item__name">
+                            <a href="#">Adidas Accessories Knitted Tech And Grip 2.0</a>
+                        </h5>
+                        <div class="list-product-item__price">
+                            <span class="list-product-item__price-old"> 1.190.000đ </span>
+                            <span class="list-product-item__price-current"> 1.000.000đ </span>
+                        </div>
+                        <div class="list-product-item__action">
+                            <span class="list-product-item__like list-product-item__like--liked">
+                            <i class="list-product-item__like-icon--empty far fa-heart"></i>
+                            <!-- icon trống -->
+                            <i class="list-product-item__like-icon--fill fas fa-heart"></i>
+                        </span>
+                            <div class="list-product-item__rating">
+                                <i class="list-product-item__rating--fill fas fa-star"></i>
+                                <i class="list-product-item__rating--fill fas fa-star"></i>
+                                <i class="list-product-item__rating--empty fas fa-star"></i>
+                                <i class="list-product-item__rating--empty fas fa-star"></i>
+                                <i class="list-product-item__rating--empty fas fa-star"></i>
+                                <!-- <i class="far fa-star"></i> ngôi sao đặc-->
+                            </div>
+                            <!-- sản phẩm đã bán thì hiện số lượng đã bán,chưa thì k hiện -->
+                            <div class="list-product-item__sold">1 Đã bán</div>
+                        </div>
+                        <div class="list-product-item__origin">
+                            <span class="list-product-item__origin-shipping">
+                            <i class="list-product-item-icon-air-shipping fas fa-globe-asia"></i>
+                        </span>
+                            <span class="list-product-item__country"> Singapore </span>
+                        </div>
+                        <!-- <div class="list-product-item__favorite">
+                            <i class="fas fa-check"></i> Yêu thích
+                        </div> -->
+                        <div class="list-product-item__sale-off">
+                            <span class="list-product-item__sale-off-percent"> 9% </span>
+                            <span class="list-product-item__sale-off-label"> Giảm</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid__column-2-4">
+                    <div class="list-product-item">
+                        <!-- product items -->
+                        <div class="list-product-item__img">
+                            <a href="#"> <img src="./image/tennis.jpg" alt="tenis"></a>
+                        </div>
+                        <h5 class="list-product-item__name">
+                            <a href="#">WILSON - Blue & Grey Ultra 100 V3 Reverse Tennis Racket</a>
+                        </h5>
+                        <div class="list-product-item__price">
+                            <span class="list-product-item__price-old"> 4.000.000đ </span>
+                            <span class="list-product-item__price-current"> 3.800.000đ </span>
+                        </div>
+                        <div class="list-product-item__action">
+                            <span class="list-product-item__like list-product-item__like--liked">
+                            <i class="list-product-item__like-icon--empty far fa-heart"></i>
+                            <!-- icon trống -->
+                            <i class="list-product-item__like-icon--fill fas fa-heart"></i>
+                        </span>
+                            <div class="list-product-item__rating">
+                                <i class="list-product-item__rating--fill fas fa-star"></i>
+                                <i class="list-product-item__rating--fill fas fa-star"></i>
+                                <i class="list-product-item__rating--empty fas fa-star"></i>
+                                <i class="list-product-item__rating--empty fas fa-star"></i>
+                                <i class="list-product-item__rating--empty fas fa-star"></i>
+                                <!-- <i class="far fa-star"></i> ngôi sao đặc-->
+                            </div>
+                            <!-- sản phẩm đã bán thì hiện số lượng đã bán,chưa thì k hiện -->
+                            <div class="list-product-item__sold">11 Đã bán</div>
+                        </div>
+                        <div class="list-product-item__origin">
+                            <span class="list-product-item__origin-shipping">
+                            <i
+                                class="list-product-item-icon--domestic-shipping  fas fa-shipping-fast"></i>
+                        </span>
+                            <span class="list-product-item__country"> Việt Nam </span>
+                        </div>
+                        <div class="list-product-item__favorite">
+                            <i class="fas fa-check"></i> Yêu thích
+                        </div>
+                        <div class="list-product-item__sale-off">
+                            <span class="list-product-item__sale-off-percent"> 5% </span>
+                            <span class="list-product-item__sale-off-label"> Giảm</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid__column-2-4">
+                    <div class="list-product-item">
+                        <!-- product items -->
+                        <div class="list-product-item__img">
+                            <a href="#"> <img src="./image/bagnikr.jpg" alt="bagnike"></a>
+                        </div>
+                        <h5 class="list-product-item__name">
+                            <a href="#">Nike Gymsack GFX</a>
+                        </h5>
+                        <div class="list-product-item__price">
+                            <!-- <span class="list-product-item__price-old"> 390.000đ  </span> -->
+                            <span class="list-product-item__price-current"> 390.000đ </span>
+                        </div>
+                        <div class="list-product-item__action">
+                            <span class="list-product-item__like list-product-item__like--liked">
+                            <i class="list-product-item__like-icon--empty far fa-heart"></i>
+                            <!-- icon trống -->
+                            <i class="list-product-item__like-icon--fill fas fa-heart"></i>
+                        </span>
+                            <div class="list-product-item__rating">
+                                <i class="list-product-item__rating--fill fas fa-star"></i>
+                                <i class="list-product-item__rating--fill fas fa-star"></i>
+                                <i class="list-product-item__rating--fill fas fa-star"></i>
+                                <i class="list-product-item__rating--fill fas fa-star"></i>
+                                <i class="list-product-item__rating--fill fas fa-star"></i>
+                                <!-- <i class="far fa-star"></i> ngôi sao đặc-->
+                            </div>
+                            <!-- sản phẩm đã bán thì hiện số lượng đã bán,chưa thì k hiện -->
+                            <div class="list-product-item__sold">2k Đã bán</div>
+                        </div>
+                        <div class="list-product-item__origin">
+                            <span class="list-product-item__origin-shipping">
+                            <i
+                                class="list-product-item-icon--domestic-shipping  fas fa-shipping-fast"></i>
+                        </span>
+                            <span class="list-product-item__country"> Hà Nội </span>
+                        </div>
+                        <div class="list-product-item__favorite">
+                            <i class="fas fa-check"></i> Yêu thích
+                        </div>
+                        <!-- <div class="list-product-item__sale-off">
+                            <span class="list-product-item__sale-off-percent"> 9% </span>
+                            <span class="list-product-item__sale-off-label">  Giảm</span>
+                        </div> -->
+                    </div>
+                </div>
+                <div class="grid__column-2-4">
+                    <div class="list-product-item">
+                        <!-- product items -->
+                        <div class="list-product-item__img">
+                            <a href="#"> <img src="./image/jafcb.jpg" alt="jacketfcb"></a>
+                        </div>
+                        <h5 class="list-product-item__name">
+                            <a href="#">Nike Barcelona Men's I96 Champions League Jacket Dark Smoke
+                            Grey-Cabana</a>
+                        </h5>
+                        <div class="list-product-item__price">
+                            <span class="list-product-item__price-old"> 3.190.000đ </span>
+                            <span class="list-product-item__price-current"> 3.000.000đ </span>
+                        </div>
+                        <div class="list-product-item__action">
+                            <span class="list-product-item__like list-product-item__like--liked">
+                            <i class="list-product-item__like-icon--empty far fa-heart"></i>
+                            <!-- icon trống -->
+                            <i class="list-product-item__like-icon--fill fas fa-heart"></i>
+                        </span>
+                            <div class="list-product-item__rating">
+                                <i class="list-product-item__rating--fill fas fa-star"></i>
+                                <i class="list-product-item__rating--fill fas fa-star"></i>
+                                <i class="list-product-item__rating--fill fas fa-star"></i>
+                                <i class="list-product-item__rating--fill fas fa-star"></i>
+                                <i class="list-product-item__rating--empty fas fa-star"></i>
+                                <!-- <i class="far fa-star"></i> ngôi sao đặc-->
+                            </div>
+                            <!-- sản phẩm đã bán thì hiện số lượng đã bán,chưa thì k hiện -->
+                            <div class="list-product-item__sold">1 Đã bán</div>
+                        </div>
+                        <div class="list-product-item__origin">
+                            <span class="list-product-item__origin-shipping">
+                            <i class="list-product-item-icon-air-shipping fas fa-globe-asia"></i>
+                        </span>
+                            <span class="list-product-item__country"> Singapore </span>
+                        </div>
+                        <!-- <div class="list-product-item__favorite">
+                            <i class="fas fa-check"></i> Yêu thích
+                        </div> -->
+                        <div class="list-product-item__sale-off">
+                            <span class="list-product-item__sale-off-percent"> 2% </span>
+                            <span class="list-product-item__sale-off-label"> Giảm</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid__column-2-4">
+                    <div class="list-product-item">
+                        <!-- product items -->
+                        <div class="list-product-item__img">
+                            <a href="#"> <img src="./image/ball.webp" alt="ball"></a>
+                        </div>
+                        <h5 class="list-product-item__name">
+                            <a href="#">
+                            LIONEL LEO MESSI Autographed UEFA Champions League 2017 Soccer Ball
+                            ICONS</a>
+                        </h5>
+                        <div class="list-product-item__price">
+                            <span class="list-product-item__price-old"> 2.439.000đ </span>
+                            <span class="list-product-item__price-current"> 2.000.000đ </span>
+                        </div>
+                        <div class="list-product-item__action">
+                            <span class="list-product-item__like list-product-item__like--liked">
+                            <i class="list-product-item__like-icon--empty far fa-heart"></i>
+                            <!-- icon trống -->
+                            <i class="list-product-item__like-icon--fill fas fa-heart"></i>
+                        </span>
+                            <div class="list-product-item__rating">
+                                <i class="list-product-item__rating--fill fas fa-star"></i>
+                                <i class="list-product-item__rating--fill fas fa-star"></i>
+                                <i class="list-product-item__rating--fill fas fa-star"></i>
+                                <i class="list-product-item__rating--fill fas fa-star"></i>
+                                <i class="list-product-item__rating--fill fas fa-star"></i>
+                                <!-- <i class="far fa-star"></i> ngôi sao đặc-->
+                            </div>
+                            <!-- sản phẩm đã bán thì hiện số lượng đã bán,chưa thì k hiện -->
+                            <div class="list-product-item__sold">354 Đã bán</div>
+                        </div>
+                        <div class="list-product-item__origin">
+                            <span class="list-product-item__origin-shipping">
+                            <i class="list-product-item-icon-air-shipping fas fa-globe-asia"></i>
+                        </span>
+                            <span class="list-product-item__country"> ThaiLand </span>
+                        </div>
+                        <!-- <div class="list-product-item__favorite">
+                            <i class="fas fa-check"></i> Yêu thích
+                        </div> -->
+                        <div class="list-product-item__sale-off">
+                            <span class="list-product-item__sale-off-percent"> 11% </span>
+                            <span class="list-product-item__sale-off-label"> Giảm</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid__column-2-4">
+                    <div class="list-product-item">
+                        <!-- product items -->
+                        <div class="list-product-item__img">
+                            <a href="#"> <img src="./image/capac.jpg" alt="accap"></a>
+                        </div>
+                        <h5 class="list-product-item__name">
+                            <a href="#">AC Milan Cap
+                        </a>
+                        </h5>
+                        <div class="list-product-item__price">
+                            <span class="list-product-item__price-old"> 1.090.000đ </span>
+                            <span class="list-product-item__price-current"> 900.000đ </span>
+                        </div>
+                        <div class="list-product-item__action">
+                            <span class="list-product-item__like list-product-item__like--liked">
+                            <i class="list-product-item__like-icon--empty far fa-heart"></i>
+                            <!-- icon trống -->
+                            <i class="list-product-item__like-icon--fill fas fa-heart"></i>
+                        </span>
+                            <div class="list-product-item__rating">
+                                <i class="list-product-item__rating--fill fas fa-star"></i>
+                                <i class="list-product-item__rating--fill fas fa-star"></i>
+                                <i class="list-product-item__rating--empty fas fa-star"></i>
+                                <i class="list-product-item__rating--empty fas fa-star"></i>
+                                <i class="list-product-item__rating--empty fas fa-star"></i>
+                                <!-- <i class="far fa-star"></i> ngôi sao đặc-->
+                            </div>
+                            <!-- sản phẩm đã bán thì hiện số lượng đã bán,chưa thì k hiện -->
+                            <div class="list-product-item__sold">1 Đã bán</div>
+                        </div>
+                        <div class="list-product-item__origin">
+                            <span class="list-product-item__origin-shipping">
+                            <i class="list-product-item-icon-air-shipping fas fa-globe-asia"></i>
+                        </span>
+                            <span class="list-product-item__country"> Arap Saudi </span>
+                        </div>
+                        <!-- <div class="list-product-item__favorite">
+                            <i class="fas fa-check"></i> Yêu thích
+                        </div> -->
+                        <div class="list-product-item__sale-off">
+                            <span class="list-product-item__sale-off-percent"> 15% </span>
+                            <span class="list-product-item__sale-off-label"> Giảm</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Phân trang -->
+        <ul class="pagination list-product__pagination">
+            <li class="pagination-item">
+                <a href="" class="pagination-item__link">
+                    <i class="pagination-item__icon fas fa-angle-left"></i>
+                </a>
+            </li>
+            <li class="pagination-item pagination-item--active">
+                <a href="" class="pagination-item__link pagination-item__link--active">1</a>
+            </li>
+            <li class="pagination-item">
+                <a href="" class="pagination-item__link">2</a>
+            </li>
+            <li class="pagination-item">
+                <a href="" class="pagination-item__link">3</a>
+            </li>
+            <li class="pagination-item">
+                <a href="" class="pagination-item__link">4</a>
+            </li>
+            <li class="pagination-item">
+                <a href="" class="pagination-item__link">5</a>
+            </li>
+            <li class="pagination-item">
+                <a href="" class="pagination-item__link">...</a>
+            </li>
+            <li class="pagination-item">
+                <a href="" class="pagination-item__link">14</a>
+            </li>
+            <li class="pagination-item">
+                <a href="" class="pagination-item__link">
+                    <i class="pagination-item__icon fas fa-angle-right"></i>
+                </a>
+            </li>
+        </ul>
+        <!-- Phân trang -->
+    </div>
+</div>
+</div>
+</div>
+</div>
+<!-- phần nội dung -->
+<!-- phần footer -->
+<footer class="footer">
+<div class="grid">
+<div class="grid__row">
+<div class="grid__column-2-4">
+    <ul class="footer__list">
+        <h3 class="footer__heading">Chăm sóc khách hàng</h3>
+        <li class="footer__list-item">
+            <a href="#" class="footer__list-item__link">
+                <i class="far fa-question-circle"></i> Trợ Giúp</a>
+        </li>
+        <li class="footer__list-item">
+            <a href="#" class="footer__list-item__link">
+                <i class="fab fa-shopify"></i> Shop Mall</a>
+        </li>
+        <li class="footer__list-item">
+            <a href="#" class="footer__list-item__link">
+                <i class="fas fa-hands-helping"></i> Hướng dẫn mua hàng</a>
+        </li>
+        <li class="footer__list-item">
+            <a href="#" class="footer__list-item__link">
+                <i class="fas fa-phone-square-alt"></i> Liên hệ</a>
+        </li>
+    </ul>
+</div>
+<div class="grid__column-2-4">
+
+    <ul class="footer__list">
+        <h3 class="footer__heading">Giới Thiệu</h3>
+        <li class="footer__list-item">
+            <a href="#" class="footer__list-item__link">
+                <i class="far fa-address-card"></i> Về chúng tôi</a>
+        </li>
+        <li class="footer__list-item">
+            <a href="#" class="footer__list-item__link">
+                <i class="fas fa-history"></i> Quá trình phát triển</a>
+        </li>
+        <li class="footer__list-item">
+            <a href="#" class="footer__list-item__link">
+                <i class="fas fa-running"></i> Đội ngũ nhân viên</a>
+        </li>
+        <li class="footer__list-item">
+            <a href="#" class="footer__list-item__link">
+                <i class="fas fa-users"></i> Nhân sự</a>
+        </li>
+    </ul>
+</div>
+<div class="grid__column-2-4">
+
+    <ul class="footer__list">
+        <h3 class="footer__heading">Dịch vụ vận chuyển</h3>
+        <li class="footer__list-item">
+            <a href="#" class="footer__list-item__link">
+                <i class="fas fa-comments-dollar"></i> Giao hàng tiết kiệm
+            </a>
+        </li>
+        <li class="footer__list-item">
+            <a href="#" class="footer__list-item__link">
+                <i class="fas fa-shipping-fast"></i> Giao hàng nhanh
+            </a>
+        </li>
+        <li class="footer__list-item">
+            <a href="#" class="footer__list-item__link">
+                <i class="far fa-handshake"></i> Ninja Van
+            </a>
+        </li>
+        <li class="footer__list-item">
+            <a href="#" class="footer__list-item__link">
+                <i class="fas fa-globe-asia"></i> Quốc Tế</a>
+        </li>
+    </ul>
+</div>
+<div class="grid__column-2-4">
+    <ul class="footer__list">
+        <h3 class="footer__heading">Theo dõi</h3>
+        <li class="footer__list-item">
+            <a href="#" class="footer__list-item__link">
+                <i class="fab fa-facebook"></i> Facebook
+            </a>
+        </li>
+        <li class="footer__list-item">
+            <a href="#" class="footer__list-item__link">
+                <i class="fab fa-instagram"></i> Instagram
+            </a>
+        </li>
+        <li class="footer__list-item">
+            <a href="#" class="footer__list-item__link">
+                <i class="fab fa-linkedin"></i> Linkedin
+            </a>
+        </li>
+        <li class="footer__list-item">
+            <a href="#" class="footer__list-item__link">
+                <i class="fab fa-twitter"></i> Twitter
+            </a>
+        </li>
+    </ul>
+</div>
+<div class="grid__column-2-4">
+    <div class="footer-item__parner">
+        <h3 class="footer__heading">Đối tác của chúng tôi</h3>
+        <div class="footer-item__parner-img">
+            <a href="https://www.nike.com/vn/" target="blank">
+                <img src="./image/logonike.jpg" alt="NikeLogo" class="logo-parner">
+            </a>
+            <a href="https://www.adidas.com.vn/" target="blank">
+                <img src="./image/adidas.png" alt="Adidas Logo" class="logo-parner">
+            </a>
+            <a href="https://kamito.vn/" target="blank">
+                <img src="./image/kamito.png" alt="Kamito Logo" class="logo-parner">
+            </a>
+            <a href="https://www.mlssoccer.com/" target="blank">
+                <img src="./image/mls.png" alt="MLS Logo" class="logo-parner">
+            </a>
+            <a href="https://vpf.vn/mobile/" target="blank">
+                <img src="./image/vleague.jfif" alt="Vleague Logo" class="logo-parner">
+            </a>
+            <a href="https://www.premierleague.com/" target="blank">
+                <img src="./image/epl.png" alt="Epl Logo" class="logo-parner">
+            </a>
+            <a href="https://fcbayern.com/en" target="blank">
+                <img src="./image/by.jpg" alt="Bundesliga Logo" class="logo-parner">
+            </a>
+            <a href="https://www.laliga.com/en-GB" target="blank">
+                <img src="./image/laliga.jfif" alt="Laliga Logo" class="logo-parner">
+            </a>
+            <a href="http://kelmevietnam.vn/" target="blank">
+                <img src="./image/kelme.png" alt="kelme Logo" class="logo-parner">
+            </a>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+<!-- chiếm hết chìu ngang thì phải tạo row mới -->
+<!-- footer thứ 2 -->
+<div class="grid">
+<div class="footer-policy">
+<div class="grid__row">
+    <div class="grid__column-3">
+        <a href="" class="footer-policy__heading">
+    Chính sách bảo mật
+</a>
+        <span class="footer-policy__heading-seperate"></span>
+    </div>
+    <div class="grid__column-3">
+        <a href="" class="footer-policy__heading">
+    Quy chế hoạt động
+</a>
+        <span class="footer-policy__heading-seperate"></span>
+    </div>
+    <div class="grid__column-3">
+        <a href="" class="footer-policy__heading">
+    Chính sách vận chuyển
+</a>
+        <span class="footer-policy__heading-seperate"></span>
+    </div>
+    <div class="grid__column-3">
+        <a href="" class="footer-policy__heading">
+    Chính sách trả hàng và hoàn tiền
+</a>
+    </div>
+</div>
+<div class="footer-certification__img">
+    <img src="./image/daumoc.png" alt="" class="">
+</div>
+<div class="footer-company__name">
+    <span>Công Ty của LinhNguyen</span>
+</div>
+<div class="footer-company__info">
+    <span class="footer-company__info-add">
+Địa chỉ : Số 793 , Trần Xuân Soạn , phường Tân Hưng , Quận 7 ,TP.Hồ Chí Minh
+</span>
+    <span class="footer-company__id">
+Mã số doanh nghiệp : 0786907653 do sở Kế hoạch & Đầu tư TP.Hồ Chí Minh cấp lần đầu ngày 11/3/2021
+</span>
+    <span class="footer-company__copy-right">
+@ 2020 - Bản quyền thuộc về LinhK18NTTU
+</span>
+</div>
+<!-- footer thứ 2 -->
+</div>
+</div>
+
+</footer>
+<!-- phần footer -->
+
+
+
+<!-- ẩn hiện khung đăng nhập ,đăng ký có lớp phủ mờ phía sau -->
+<!-- Phần Modal : phần nổi mờ lên chiếm hết toàn bộ màn hình -->
+<!-- <div class="modal">
+<div class="modal__overlay"></div>
+<div class="modal__body">
+Form đăng ký
+<div class="auth-form">
+<div class="auth-form__container">
+    <div class="auth-form__header">
+        <h3 class="auth-form__heading">Đăng Ký</h3>
+        <span class="auth-form__switch--btn">Đăng nhập</span>
+    </div>
+    <div class="auth-form__form">
+        <div class="auth-form__group">
+            <input type="text" class="auth-form__input" placeholder="Nhập email đăng ký">
+        </div>
+        <div class="auth-form__group">
+            <input type="password" class="auth-form__input" placeholder="Nhập mật khẩu">
+        </div>
+        <div class="auth-form__group">
+            <input type="password" class="auth-form__input" placeholder="Nhập lại mật khẩu">
+        </div>
+    </div>
+    <div class="auth-form__rules">
+        <p class="auth-form__polici-text">Bằng việc đăng ký,bạn đã đồng ý với Shopee về
+            <a href="#" class="auth-form__polici-link">Điều khoản dịch vụ</a> &
+            <a href="" class="auth-form__polici-link">Chính sách bảo mật</a>
+        </p>
+    </div>
+    <div class="auth-form__control-btn">
+        <button class="btn auth-form__control--back">TRỞ LẠI</button>
+        <button class="btn btn--primary">ĐĂNG KÝ</button>
+    </div>
+</div>
+<div class="auth-form__socials">
+    <a href="" class="btn--with-icon btn--with-icon--fb"><i class="fab fa-facebook-square"></i>Kết nối với Facebook</a>
+    <a href="" class="btn--with-icon btn--with-icon--gg"><i class="fab fa-google"></i>Kết nối với Google</a>
+</div>
+</div>
+Form đăng nhập
+<div class="auth-form">
+<div class="auth-form__container">
+    <div class="auth-form__header">
+        <h3 class="auth-form__heading">Đăng Nhập</h3>
+        <span class="auth-form__switch--btn">Đăng Ký</span>
+    </div>
+    <div class="auth-form__form">
+        <div class="auth-form__group">
+            <input type="text" class="auth-form__input" placeholder="Nhập email của bạn">
+        </div>
+        <div class="auth-form__group">
+            <input type="password" class="auth-form__input" placeholder="Nhập mật khẩu">
+        </div>
+    </div>
+    <div class="auth-form__help">
+        <a href="" class="auth-form__help-link auth-form__help-forgot">Quên mật khẩu</a>
+        <span class="auth-form__help--seperate"></span>
+        <a href="" class="auth-form__help-link">Cần trợ giúp?</a>
+    </div>
+    2 nút điều hướng
+    <div class="auth-form__control-btn">
+        <button class="btn auth-form__control--back">TRỞ LẠI</button>
+        <button class="btn btn--primary">ĐĂNG NHẬP</button>
+    </div>
+</div>
+
+login social
+<div class="auth-form__socials">
+    <a href="" class="btn--with-icon btn--with-icon--fb"><i class="fab fa-facebook-square"></i>Đăng nhập với Facebook</a>
+    <a href="" class="btn--with-icon btn--with-icon--gg"><i class="fab fa-google"></i>Kết nối với Google</a>
+</div>
+</div>
+</div>
+</div> -->
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="/jquery/owl.carousel.min.js"></script>
+<script>
+$('.owl-carousel').owlCarousel({
+// items 1 tức là 1 slide trên 1 page
+items: 1,
+lazyLoad: true,
+loop: false,
+// k doule slider
+margin: 10
+});
+</script>
+</body>
+
+</html>
+
+</html>

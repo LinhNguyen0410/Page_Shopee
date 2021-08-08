@@ -1,0 +1,312 @@
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+    --main-color: #d0011b;
+    --border-color: #dbdbdb;
+    --star-fill-color: rgb(241, 229, 56);
+    --star-empty-color: #ccc;
+    --height-header: 130px;
+    --height-navbar: 26px;
+    --header-with-search-height: calc(var(--height-header) - var(--height-navbar));
+    /* https://www.youtube.com/watch?v=DgNLJ9DqMdY&list=PL_-VfJajZj0U9nEXa4qyfB4U5ZIYCMPlz&index=58 */
+}
+
+* {
+    box-sizing: inherit;
+    /* box-sizing: inherit; kế thừa tiwf thẻ chứa nó */
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    /* 62.5% = 10px */
+    /* fsize 100% = 16px ,62.5% = 10px = 1rem */
+    line-height: 1.6rem;
+    /* font-family: "Yellowtail", cursive; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+
+/* Responsive */
+
+.grid {
+    width: 1300px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.grid__full-width {
+    width: 100%;
+}
+
+.grid__row {
+    display: flex;
+    margin-left: -5.4px;
+    margin-right: -5.4px;
+}
+
+
+/*row bao product */
+
+.grid-row__product {
+    flex-wrap: wrap;
+}
+
+
+/* TEST */
+
+.grid__column-2 {
+    padding-left: 5.4px;
+    padding-right: 5.4px;
+    width: 16.667%;
+}
+
+.grid__column-2-4 {
+    padding-left: 5.4px;
+    padding-right: 5.4px;
+    width: 19%;
+    display: flex;
+    justify-content: center;
+}
+
+.grid__column-3 {
+    padding-left: 5.4px;
+    padding-right: 5.4px;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+}
+
+.grid__column-10 {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 83.334%;
+}
+
+
+/* Animation */
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+/* animation thông báo */
+
+@keyframes animateNotifiGrow {
+    from {
+        opacity: 0;
+        transform: scale(0);
+        /*  transform: scale(0); tức là điểm đầu xuất phát ra rất nhỏ */
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+
+/* MODAL CSS */
+
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    /* css như những cái trên thì cái lớp modal này sẽ nằm full 4 góc chiếm hết màn hình */
+    animation: fadeIn linear 0.2s;
+}
+
+.modal__overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* cho cái lớp mờ này bằng  modal */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* màu rgba mờ mờ trong suốt */
+}
+
+.modal__body {
+    --growth-from: 0.7;
+    --growth-to: 1;
+    /* di chuyển từ kích thước 0,7 đến kích thước nguyên vẹn là 1 */
+    background-color: var(--white-color);
+    margin: auto;
+    z-index: 2;
+    border-radius: 6px;
+    animation: growth linear 0.2s;
+}
+
+
+/* btn style */
+
+.btn {
+    padding: 8px 40px;
+    border-radius: 3px;
+    background-color: var(--white-color);
+    border: 1px solid var(--border-color);
+    font-weight: 550;
+    color: var(--text-color);
+    margin-right: 5px;
+    outline: none;
+    cursor: pointer;
+}
+
+.btn--primary:active {
+    background-color: #ff4213;
+}
+
+.btn--primary {
+    color: var(--white-color);
+    background-color: var(--main-color);
+    font-weight: 600;
+    border: 1px solid var(--border-color);
+}
+
+
+/* SCALE GROW LỚN LÊN TỪ TỪ */
+
+@keyframes growth {
+    from {
+        transform: scale(var(--growth-from));
+    }
+    to {
+        transform: scale(var(--growth-to));
+    }
+}
+
+
+/* KHUNG SELECTION */
+
+.input-select {
+    padding: 0 12px;
+    border-radius: 3px;
+    min-width: 170px;
+    background-color: #fff;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.input-select__label {
+    font-size: 1.4rem;
+}
+
+.input-select__icon {
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+
+
+/* Khung lọc theo giá dc show ra */
+
+.input-select__option {
+    position: absolute;
+    width: 100%;
+    background-color: var(--white-color);
+    top: calc(100% + 3px);
+    left: 0;
+    padding: 10px 0px;
+    border-radius: 3px;
+    box-shadow: 0 0 3px rgb(206, 203, 203);
+    display: none;
+    z-index: 1111;
+}
+
+
+/* bắt càu hover */
+
+.input-select__option::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 10px;
+    display: block;
+    top: -10px;
+    right: 0;
+}
+
+.input-select__option-request {
+    display: block;
+    padding: 12px 16px;
+    font-size: 1.4rem;
+    color: var(--text-color);
+}
+
+.input-select__option-request:hover {
+    color: var(--main-color);
+    transition: .3s;
+}
+
+
+/* Hover input select show bảng tùy chọn giá thấp - cao , cao - thấp */
+
+.input-select:hover .input-select__option {
+    display: block;
+    -webkit-animation: fadeIn ease-in .2s;
+    -o-animation: fadeIn ease-in .2s;
+    -ms-zoom-animation: fadeIn ease-in .2s;
+    -moz-animation: fadeIn ease-in .2s;
+}
+
+
+/* CSS PHÂN TRANG */
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagination-item {
+    margin: 0px 13px;
+    border-radius: 2px;
+}
+
+.pagination-item--active {
+    background-color: var(--main-color);
+}
+
+.pagination-item__link--active {
+    color: var(--white-color) !important;
+}
+
+.pagination-item__link {
+    --height: 30px;
+    display: block;
+    color: var(--text-color);
+    font-size: 2rem;
+    min-width: 40px;
+    height: var(--height);
+    text-align: center;
+    line-height: var(--height);
+    border-radius: 2px;
+    /* line-height = chìu cao thì item cân giữaa */
+}
+
+.pagination-item__link--active.pagination-item__link:hover {
+    background-color: rgb(243, 36, 0);
+}
+
+.pagination-item__icon:hover {
+    color: var(--main-color);
+}
